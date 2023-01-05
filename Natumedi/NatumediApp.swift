@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct NatumediApp: App {
+    
+    @AppStorage("isDarkMode") private var isDarkMode = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
+                .environmentObject(AudioManager())
+                .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }

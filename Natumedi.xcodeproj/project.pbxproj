@@ -11,6 +11,25 @@
 		54159F982941F073008DD629 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54159F972941F073008DD629 /* ContentView.swift */; };
 		54159F9A2941F076008DD629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54159F992941F076008DD629 /* Assets.xcassets */; };
 		54159F9D2941F076008DD629 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54159F9C2941F076008DD629 /* Preview Assets.xcassets */; };
+		54159FAB2941F0CF008DD629 /* waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54159FA32941F0CA008DD629 /* waves.mp3 */; };
+		54159FAC2941F0CF008DD629 /* thunderstorm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54159FA42941F0CA008DD629 /* thunderstorm.mp3 */; };
+		54159FAD2941F0CF008DD629 /* waterfall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54159FA52941F0CB008DD629 /* waterfall.mp3 */; };
+		54159FAE2941F0CF008DD629 /* river.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54159FA62941F0CB008DD629 /* river.mp3 */; };
+		54159FAF2941F0CF008DD629 /* distant-storm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54159FA72941F0CC008DD629 /* distant-storm.mp3 */; };
+		54159FB02941F0CF008DD629 /* birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54159FA82941F0CF008DD629 /* birds.mp3 */; };
+		54159FB12941F0CF008DD629 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54159FA92941F0CF008DD629 /* rain.mp3 */; };
+		54159FB22941F0CF008DD629 /* underwater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54159FAA2941F0CF008DD629 /* underwater.mp3 */; };
+		54159FB52941F2F1008DD629 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54159FB42941F2F1008DD629 /* HomeView.swift */; };
+		54159FB72941F4DF008DD629 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54159FB62941F4DF008DD629 /* Menu.swift */; };
+		54159FB929422754008DD629 /* BigCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54159FB829422754008DD629 /* BigCard.swift */; };
+		54159FBB29422E8A008DD629 /* SmallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54159FBA29422E8A008DD629 /* SmallCard.swift */; };
+		54376BAF29426E2900660CEA /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54376BAE29426E2900660CEA /* PlaybackControlButton.swift */; };
+		54376BB129426E4F00660CEA /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54376BB029426E4F00660CEA /* AudioManager.swift */; };
+		54376BB329426E9800660CEA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54376BB229426E9800660CEA /* Extensions.swift */; };
+		54376BB529426F8800660CEA /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54376BB429426F8800660CEA /* MeditationView.swift */; };
+		54376BBB294283FA00660CEA /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54376BBA294283FA00660CEA /* SplashScreen.swift */; };
+		546D4DC929428DE100DC8A2C /* NothingYouCouldDo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 546D4DC829428DE100DC8A2C /* NothingYouCouldDo.ttf */; };
+		546D4DCC294291E200DC8A2C /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D4DCB294291E200DC8A2C /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +38,26 @@
 		54159F972941F073008DD629 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54159F992941F076008DD629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54159F9C2941F076008DD629 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54159FA32941F0CA008DD629 /* waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waves.mp3; sourceTree = "<group>"; };
+		54159FA42941F0CA008DD629 /* thunderstorm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunderstorm.mp3; sourceTree = "<group>"; };
+		54159FA52941F0CB008DD629 /* waterfall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterfall.mp3; sourceTree = "<group>"; };
+		54159FA62941F0CB008DD629 /* river.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = river.mp3; sourceTree = "<group>"; };
+		54159FA72941F0CC008DD629 /* distant-storm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "distant-storm.mp3"; sourceTree = "<group>"; };
+		54159FA82941F0CF008DD629 /* birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birds.mp3; sourceTree = "<group>"; };
+		54159FA92941F0CF008DD629 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		54159FAA2941F0CF008DD629 /* underwater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = underwater.mp3; sourceTree = "<group>"; };
+		54159FB42941F2F1008DD629 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		54159FB62941F4DF008DD629 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		54159FB829422754008DD629 /* BigCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCard.swift; sourceTree = "<group>"; };
+		54159FBA29422E8A008DD629 /* SmallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCard.swift; sourceTree = "<group>"; };
+		54376BAE29426E2900660CEA /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
+		54376BB029426E4F00660CEA /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		54376BB229426E9800660CEA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		54376BB429426F8800660CEA /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		54376BBA294283FA00660CEA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		546D4DC829428DE100DC8A2C /* NothingYouCouldDo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NothingYouCouldDo.ttf; sourceTree = "<group>"; };
+		546D4DCA29428E0100DC8A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		546D4DCB294291E200DC8A2C /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +71,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5400253029670F920053083B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5400253129670FB30053083B /* Components */,
+				54376BBA294283FA00660CEA /* SplashScreen.swift */,
+				54159F972941F073008DD629 /* ContentView.swift */,
+				54159FB42941F2F1008DD629 /* HomeView.swift */,
+				54376BB429426F8800660CEA /* MeditationView.swift */,
+				546D4DCB294291E200DC8A2C /* TipsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5400253129670FB30053083B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				54159FB829422754008DD629 /* BigCard.swift */,
+				54159FBA29422E8A008DD629 /* SmallCard.swift */,
+				54159FB62941F4DF008DD629 /* Menu.swift */,
+				54376BAE29426E2900660CEA /* PlaybackControlButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		54002533296712050053083B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54376BB029426E4F00660CEA /* AudioManager.swift */,
+				54376BB229426E9800660CEA /* Extensions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54002534296713430053083B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				54159FA82941F0CF008DD629 /* birds.mp3 */,
+				54159FA72941F0CC008DD629 /* distant-storm.mp3 */,
+				54159FA92941F0CF008DD629 /* rain.mp3 */,
+				54159FA62941F0CB008DD629 /* river.mp3 */,
+				54159FA42941F0CA008DD629 /* thunderstorm.mp3 */,
+				54159FAA2941F0CF008DD629 /* underwater.mp3 */,
+				54159FA52941F0CB008DD629 /* waterfall.mp3 */,
+				54159FA32941F0CA008DD629 /* waves.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		54159F892941F073008DD629 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +138,13 @@
 		54159F942941F073008DD629 /* Natumedi */ = {
 			isa = PBXGroup;
 			children = (
+				54002533296712050053083B /* Model */,
+				546D4DCA29428E0100DC8A2C /* Info.plist */,
+				546D4DC729428DA800DC8A2C /* Fonts */,
 				54159F952941F073008DD629 /* NatumediApp.swift */,
-				54159F972941F073008DD629 /* ContentView.swift */,
+				5400253029670F920053083B /* View */,
 				54159F992941F076008DD629 /* Assets.xcassets */,
+				54002534296713430053083B /* Sounds */,
 				54159F9B2941F076008DD629 /* Preview Content */,
 			);
 			path = Natumedi;
@@ -65,6 +156,14 @@
 				54159F9C2941F076008DD629 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		546D4DC729428DA800DC8A2C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				546D4DC829428DE100DC8A2C /* NothingYouCouldDo.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +224,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54159FAD2941F0CF008DD629 /* waterfall.mp3 in Resources */,
 				54159F9D2941F076008DD629 /* Preview Assets.xcassets in Resources */,
+				546D4DC929428DE100DC8A2C /* NothingYouCouldDo.ttf in Resources */,
+				54159FB12941F0CF008DD629 /* rain.mp3 in Resources */,
+				54159FB22941F0CF008DD629 /* underwater.mp3 in Resources */,
+				54159FAC2941F0CF008DD629 /* thunderstorm.mp3 in Resources */,
+				54159FB02941F0CF008DD629 /* birds.mp3 in Resources */,
+				54159FAF2941F0CF008DD629 /* distant-storm.mp3 in Resources */,
+				54159FAE2941F0CF008DD629 /* river.mp3 in Resources */,
 				54159F9A2941F076008DD629 /* Assets.xcassets in Resources */,
+				54159FAB2941F0CF008DD629 /* waves.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +245,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546D4DCC294291E200DC8A2C /* TipsView.swift in Sources */,
+				54159FB52941F2F1008DD629 /* HomeView.swift in Sources */,
+				54376BAF29426E2900660CEA /* PlaybackControlButton.swift in Sources */,
 				54159F982941F073008DD629 /* ContentView.swift in Sources */,
+				54159FB72941F4DF008DD629 /* Menu.swift in Sources */,
+				54376BB329426E9800660CEA /* Extensions.swift in Sources */,
 				54159F962941F073008DD629 /* NatumediApp.swift in Sources */,
+				54376BBB294283FA00660CEA /* SplashScreen.swift in Sources */,
+				54376BB529426F8800660CEA /* MeditationView.swift in Sources */,
+				54376BB129426E4F00660CEA /* AudioManager.swift in Sources */,
+				54159FB929422754008DD629 /* BigCard.swift in Sources */,
+				54159FBB29422E8A008DD629 /* SmallCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +388,13 @@
 				DEVELOPMENT_TEAM = 2A78272CW3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Natumedi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +402,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juliakansbod.Natumedi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,11 +422,13 @@
 				DEVELOPMENT_TEAM = 2A78272CW3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Natumedi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +436,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juliakansbod.Natumedi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
